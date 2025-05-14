@@ -1,0 +1,18 @@
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>jaxws-maven-plugin</artifactId>
+    <version>2.6</version>
+    <executions>
+        <execution>
+            <goals>
+                <goal>wsimport</goal>
+            </goals>
+            <configuration>
+                <wsdlUrls>
+                    <wsdlUrl>http://localhost:8085/WineStockService?wsdl</wsdlUrl>
+                    <wsdlUrl>http://localhost:8086/WineWarningService?wsdl</wsdlUrl>
+                </wsdlUrls>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
