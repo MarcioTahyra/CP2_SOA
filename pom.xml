@@ -16,14 +16,13 @@
     </properties>
 
     <dependencies>
-        <!-- Implementação completa do JAX-WS (javax.xml.ws) -->
+
         <dependency>
             <groupId>com.sun.xml.ws</groupId>
             <artifactId>jaxws-rt</artifactId>
             <version>2.3.3</version>
         </dependency>
 
-        <!-- Opcional: Para geração de código a partir de WSDL, se necessário -->
         <dependency>
             <groupId>javax.annotation</groupId>
             <artifactId>javax.annotation-api</artifactId>
